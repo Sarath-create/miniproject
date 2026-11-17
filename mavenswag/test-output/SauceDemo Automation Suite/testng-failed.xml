@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SauceDemo Functional Testing(failed)">
+    <classes>
+      <class name="testpackage.carttest">
+        <methods>
+          <include name="maxlengthlastname"/>
+          <include name="maxlengthinpostalcode"/>
+          <include name="postalCodeValidation"/>
+          <include name="details"/>
+          <include name="numbersinlastname"/>
+          <include name="browser_launch"/>
+          <include name="teardown"/>
+          <include name="singlepostalcode"/>
+          <include name="CheckoutWithoutProducts"/>
+          <include name="firstandlastname"/>
+          <include name="maxlengthfirstname"/>
+          <include name="numbersinfirstname"/>
+        </methods>
+      </class> <!-- testpackage.carttest -->
+    </classes>
+  </test> <!-- SauceDemo Functional Testing(failed) -->
+</suite> <!-- Failed suite [SauceDemo Automation Suite] -->
